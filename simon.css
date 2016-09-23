@@ -1,0 +1,80 @@
+body {
+    padding: 30px 0 0 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    margin-right: 50px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    padding: 0 20px 0 20px;
+}
+
+#display {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    color: red;
+}
+
+#score {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#round {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#count {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#message {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+#commandBoard {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#redBtn {
+    background-color: red;
+}
+
+#blueBtn {
+    background-color: blue;
+}
+
+#greenBtn {
+    background-color: green;
+}
+
+#yellowBtn {
+    background-color: yellow;
+}

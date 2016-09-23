@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="simon.css" />
+        <title></title>
+        <script src="eventEmitter.js" ></script>
+        <script src="model.js" ></script>
+        <script src="view.js" ></script>
+        <script src="controller.js" ></script>
+
+    </head>
+
+    <body>
+
+        <article>
+            <span class="column">
+                <span class="button" id="redBtn"></span>
+                <span class="button" id="blueBtn"></span>
+                <span class="button" id="greenBtn"></span>
+                <span class="button" id="yellowBtn"></span>
+            </span>
+            <hr />
+            <span class="column">
+                <span id="commandBoard">
+                    <button id="start">Start</button>
+                    <div id="message"></div>
+                    <div id="round"></div>
+                    <div id="score"></div>
+                </span>
+            </span>
+        </article>
+        <article>
+            <div id="display"></div>
+            <div id="count"></div>
+        </article>
+
+    </body>
+
+    <script src="app.js" ></script>
+
+</html>
